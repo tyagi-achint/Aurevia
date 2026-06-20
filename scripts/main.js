@@ -30,6 +30,25 @@ async function init() {
     await loadComponent("navbar", ["./components/navbar.html", "../components/navbar.html"]);
     await loadComponent("footer", ["./components/footer.html", "../components/footer.html"]);
 
+    const isNestedPage = /\/pages\/[^/]+$/i.test(window.location.pathname);
+    const rootPrefix = isNestedPage ? "../" : "./";
+
+    document.querySelectorAll("[data-site-href]").forEach((el) => {
+        const sitePath = el.getAttribute("data-site-href");
+
+        if (sitePath) {
+            el.setAttribute("href", `${rootPrefix}${sitePath}`);
+        }
+    });
+
+    document.querySelectorAll("[data-site-src]").forEach((el) => {
+        const sitePath = el.getAttribute("data-site-src");
+
+        if (sitePath) {
+            el.setAttribute("src", `${rootPrefix}${sitePath}`);
+        }
+    });
+
     const normalizePath = (path) => {
         if (!path) {
             return "/";
