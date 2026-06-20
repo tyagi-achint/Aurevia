@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inquire Now | Aurevia Curated Gifts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="../styles/contact.css" />
+  <link rel="stylesheet" href="../styles/global.css" />
+  <link rel="stylesheet" href="../styles/navbar.css" />
+  <link rel="stylesheet" href="../styles/footer.css" />
+</head>
+
+<body>
+  <div id="navbar"></div>
+  <header class="page-hero">
+    <div class="container hero-content">
+      <span class="eyebrow">Connect With Us</span>
+      <h1>Let's Craft Your Narrative</h1>
+      <p>
+        Tailored gifting solutions for discerning brands. Our concierge team is here to assist you in creating an
+        unforgettable impression.
+      </p>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <div class="inquiry-layout">
+      <aside class="contact-sidebar">
+        <div class="contact-card">
+          <h2>Concierge Details</h2>
+
+          <div class="detail-list">
+            <div class="detail-item">
+              <span class="material-symbols-outlined">schedule</span>
+              <div>
+                <h3>Business Hours</h3>
+                <p>Monday — Saturday</p>
+                <p>10:00 AM — 07:00 PM IST</p>
+              </div>
+            </div>
+
+            <div class="detail-item">
+              <span class="material-symbols-outlined">location_on</span>
+              <div>
+                <h3>The Studio</h3>
+                <p>Suite 402, Oakwood Estate</p>
+                <p>New Delhi, India 110001</p>
+              </div>
+            </div>
+
+            <div class="detail-item">
+              <span class="material-symbols-outlined">mail</span>
+              <div>
+                <h3>Direct Inquiries</h3>
+                <p>concierge@aurevia.com</p>
+                <p>+91 98765 43210</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-image-wrap">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCW4L4LexHS1aM2jUs1NTaQxIa-IE14wdbL348Sh9jffQKlfsp3NBl4KQU4xHFrwFL6jYMlChcszzSTn7Wp8jwMOSmtVV0dYNzijDRbyuKI6rFy0VD8aApCcNBKitaxMxrjj5OOwhV2HfBM8h-QbSnzpeqiLuH6qVV5gT-stklfwSfet7j-IEt4a9INBMajSvvix93MUOIGdyoLZqgZ2iWZcKODniz6tDQ6Jf0jq2Y-areZ-nt60Fs219DCY3li-PvxSDs_UMDgKA83"
+            alt="A minimalist studio with warm ivory walls, natural light, stationery, and marble details." />
+          <div class="image-tint"></div>
+        </div>
+      </aside>
+
+      <section class="form-panel" aria-label="Inquiry form">
+        <form class="inquiry-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Johnathan Doe" />
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" placeholder="Acme Corporation" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="john@company.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="tel" placeholder="+91 00000 00000" />
+          </div>
+
+          <div class="form-group">
+            <label for="occasion">Occasion</label>
+            <select id="occasion" name="occasion">
+              <option value="">Select Occasion</option>
+              <option value="corporate">Corporate Event</option>
+              <option value="festive">Festive Gifting</option>
+              <option value="onboarding">Employee Onboarding</option>
+              <option value="appreciation">Client Appreciation</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="quantity">Quantity (Approx.)</label>
+            <input id="quantity" name="quantity" type="number" placeholder="e.g. 50" />
+          </div>
+
+          <div class="form-group full-width">
+            <span class="field-label">Budget Range</span>
+            <div class="budget-options">
+              <label class="budget-choice">
+                <input name="budget" type="radio" />
+                <span>₹2,000 - ₹5,000</span>
+              </label>
+              <label class="budget-choice">
+                <input name="budget" type="radio" />
+                <span>₹5,000 - ₹10,000</span>
+              </label>
+              <label class="budget-choice">
+                <input name="budget" type="radio" />
+                <span>₹10,000+</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group full-width message-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"
+              placeholder="Tell us about your gifting vision..."></textarea>
+          </div>
+
+          <div class="form-actions full-width">
+            <button type="submit">Send Inquiry</button>
+            <p>Our concierge will respond within 24 business hours.</p>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <section class="faq-section">
+      <div class="faq-inner">
+        <div class="section-heading">
+          <h2>Common Enquiries</h2>
+          <p>Find answers to our most frequent concierge queries below.</p>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>
+              <span>Can we customize individual items?</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </summary>
+            <p>
+              Absolutely. We offer bespoke branding on individual products, from hot-stamping leather goods to
+              custom-etched glassware. Our design team will work with you to ensure your brand's narrative is seamlessly
+              integrated.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <span>What is your Minimum Order Quantity (MOQ)?</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </summary>
+            <p>
+              For standard collections, our MOQ starts at 25 units. For fully bespoke designs that require custom
+              sourcing and packaging, we typically suggest an MOQ of 50 units to maintain the highest standard of
+              craftsmanship.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <span>How long does delivery take?</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </summary>
+            <p>
+              Standard curated boxes ship within 7–10 business days. Custom-branded orders typically require 3–4 weeks
+              for production and quality checks. We provide tracked courier services for all corporate shipments across
+              major metro cities.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <span>Are your prices inclusive of GST?</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </summary>
+            <p>
+              Our quotes are transparent and itemized. GST is calculated at the standard rate of 12% or 18% depending on
+              the specific goods within the curated selection. All corporate inquiries receive a formal proforma invoice
+              with GST details.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.querySelectorAll('.inquiry-form input, .inquiry-form select, .inquiry-form textarea').forEach((field) => {
+      field.addEventListener('focus', () => {
+        const label = field.closest('.form-group')?.querySelector('label');
+        if (label) label.classList.add('active');
+      });
+
+      field.addEventListener('blur', () => {
+        const label = field.closest('.form-group')?.querySelector('label');
+        if (label) label.classList.remove('active');
+      });
+    });
+
+    document.querySelectorAll('details').forEach((item) => {
+      item.addEventListener('toggle', () => {
+        if (item.open) {
+          document.querySelectorAll('details').forEach((other) => {
+            if (other !== item) other.removeAttribute('open');
+          });
+        }
+      });
+    });
+  </script>
+  <div id="footer"></div>
+  <script src="../scripts/main.js"></script>
+</body>
+
+</html>
