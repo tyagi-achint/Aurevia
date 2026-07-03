@@ -22,6 +22,16 @@
   max-width: 340px;
 }
 
+.footer-div-logo-link {
+  display: inline-flex;
+  margin-bottom: 12px;
+}
+
+.footer-div-logo {
+  height: 52px;
+  width: auto;
+}
+
 .footer-div-brand h2 {
   font-size: 38px;
   margin-bottom: 16px;

@@ -36,6 +36,11 @@
   display: none;
 }
 
+.navbar-div-mobile-logo-link,
+.navbar-div-mobile-logo {
+  display: none;
+}
+
 .navbar-div-list {
   display: flex;
   align-items: center;
@@ -211,6 +216,17 @@
     display: block;
     width: 100%;
     margin-bottom: 28px;
+  }
+
+  .navbar-div-mobile-logo-link {
+    display: inline-flex;
+    margin-bottom: 12px;
+  }
+
+  .navbar-div-mobile-logo {
+    display: block;
+    height: 44px;
+    width: auto;
   }
 
   .navbar-div-mobile-brand h2 {
