@@ -16,9 +16,9 @@
   --on-surface-variant: #444840;
   --surface-container-low: #f6f3f2;
   --container-max: 1280px;
-  --margin-desktop: 64px;
-  --margin-mobile: 20px;
-  --section-gap: 120px;
+  --margin-desktop: 48px;
+  --margin-mobile: 16px;
+  --section-gap: 96px;
   --gutter: 24px;
   --stack-sm: 8px;
   --stack-md: 16px;
@@ -90,7 +90,7 @@ a {
 .page-hero {
   position: relative;
   overflow: hidden;
-  padding: 112px 0 104px;
+  padding: 88px 0 80px;
   background:
     radial-gradient(
       circle at 8% 14%,
@@ -149,10 +149,10 @@ a {
 .hero-content h1 {
   margin: 0;
   color: var(--primary);
-  font-family: "Cormorant Garamond", "Libre Caslon Text", Georgia, serif;
-  font-size: clamp(42px, 5.8vw, 66px);
-  font-weight: 600;
-  line-height: 1.08;
+  font-family: "Libre Caslon Text", Georgia, serif;
+  font-size: clamp(40px, 6vw, 64px);
+  font-weight: 400;
+  line-height: 1.125;
   letter-spacing: -0.02em;
 }
 
@@ -189,8 +189,8 @@ a {
   display: grid;
   grid-template-columns: 280px minmax(0, 1fr);
   align-items: start;
-  gap: 56px;
-  padding-top: 48px;
+  gap: 40px;
+  padding-top: 40px;
   padding-bottom: 64px;
 }
 
@@ -298,13 +298,13 @@ a {
 
 .policy-content {
   display: grid;
-  gap: 28px;
+  gap: 24px;
 }
 
 .policy-section {
   margin: 0;
   scroll-margin-top: 112px;
-  padding: 34px;
+  padding: 28px;
   background: #fff;
   border: 1px solid rgba(196, 200, 190, 0.24);
   border-radius: 24px;

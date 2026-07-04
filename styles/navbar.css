@@ -194,22 +194,21 @@
   .navbar-div-menu {
     position: fixed;
     top: 72px;
-    right: -100%;
+    right: 0;
     width: 84%;
     height: calc(100vh - 72px);
     padding: 32px 24px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     background: rgba(252, 249, 248, 0.98);
     backdrop-filter: blur(18px);
     border-left: 1px solid rgba(196, 200, 190, 0.35);
     box-shadow: -12px 0 35px rgba(85, 107, 77, 0.14);
-    transition: 0.4s ease;
   }
 
   .navbar-div-active .navbar-div-menu {
-    right: 0;
+    display: flex;
   }
 
   .navbar-div-mobile-brand {

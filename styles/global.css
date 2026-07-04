@@ -13,8 +13,9 @@
   --transition: 0.35s ease;
   --shadow: 0 10px 30px rgba(85, 107, 77, 0.1);
 
-  --desktop-margin: 64px;
-  --mobile-margin: 20px;
+  --desktop-margin: 48px;
+  --mobile-margin: 16px;
+  --section-gap: 96px;
 }
 
 * {
@@ -70,7 +71,7 @@ p {
 .container {
   max-width: var(--container);
   margin: 0 auto;
-  padding-inline: 64px;
+  padding-inline: var(--desktop-margin);
 }
 
 @media (max-width: 992px) {
@@ -162,7 +163,7 @@ p {
   text-align: center;
   max-width: 896px;
   margin: 0 auto;
-  padding: 120px var(--desktop-margin);
+  padding: var(--section-gap) var(--desktop-margin);
 }
 
 .cta-content > * + * {
@@ -172,6 +173,7 @@ p {
 .cta-content h2 {
   color: var(--white);
   font-size: 48px;
+  line-height: 1.2;
   margin-bottom: 24px;
 }
 
@@ -189,7 +191,7 @@ p {
   flex-direction: column;
   justify-content: center;
   gap: 16px;
-  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 /* Reveal Animation */
@@ -208,7 +210,7 @@ p {
 
 @media (max-width: 768px) {
   .cta-content {
-    padding: 80px var(--mobile-margin);
+    padding: 64px var(--mobile-margin);
   }
 
   .cta-actions {

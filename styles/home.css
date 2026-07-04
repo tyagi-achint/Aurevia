@@ -14,9 +14,9 @@
   --outline-variant: #c4c8be;
   --shadow: 0 4px 20px rgba(85, 107, 77, 0.08);
   --container: 1280px;
-  --desktop-margin: 64px;
-  --mobile-margin: 20px;
-  --section-gap: 120px;
+  --desktop-margin: 48px;
+  --mobile-margin: 16px;
+  --section-gap: 96px;
   --gutter: 24px;
 }
 
@@ -167,6 +167,25 @@ p {
 .text-link:hover {
   color: var(--tertiary);
 }
+.discover-link {
+  margin-top: 20px;
+  border: 1px solid var(--primary);
+  border-bottom-width: 1px;
+  padding: 14px 20px;
+  letter-spacing: 0.12em;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.discover-link:hover {
+  color: #fff;
+  background: var(--primary);
+  border-color: var(--primary);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+}
 
 .hero-section {
   position: relative;
@@ -175,10 +194,9 @@ p {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding: 80px var(--desktop-margin) 0;
+  padding: 64px var(--desktop-margin) 0;
 }
-.hero-bg,
-.quote-bg {
+.hero-bg {
   position: absolute;
   inset: 0;
   background-size: cover;
@@ -225,7 +243,7 @@ p {
   flex-wrap: wrap;
 }
 .hero-features {
-  margin-top: 64px;
+  margin-top: 48px;
   padding-top: 32px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
@@ -285,7 +303,7 @@ p {
   background: var(--surface-low);
 }
 .section-heading {
-  margin-bottom: 64px;
+  margin-bottom: 48px;
 }
 .section-heading.centered {
   max-width: 640px;
@@ -337,11 +355,11 @@ p {
 .card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.48);
   transition: opacity 0.35s ease;
 }
 .card-overlay.strong {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.56);
 }
 .solution-card:hover .card-overlay {
   opacity: 0.5;
@@ -378,19 +396,17 @@ p {
 .solution-card:hover .card-content p {
   opacity: 1;
 }
-.center-content {
-  inset: 0;
-  transform: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  max-width: none;
+.bottom-grid .card-content {
+  transform: translateY(16px);
 }
-.center-content p {
+.bottom-grid .solution-card:hover .card-content {
+  transform: translateY(0);
+}
+.bottom-grid .card-content p {
+  opacity: 0;
+}
+.bottom-grid .solution-card:hover .card-content p {
   opacity: 1;
-  max-width: 360px;
 }
 .onboarding-card .card-bg {
   background-image: url("../assets/images/home_3.png");
@@ -406,6 +422,9 @@ p {
 }
 .merch-card .card-bg {
   background-image: url("../assets/images/home_7.png");
+}
+.events-card .card-bg {
+  background-image: url("../assets/images/aboutUS_10.png");
 }
 
 .features-grid {
@@ -463,11 +482,6 @@ p {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
-}
-.step-number.active {
-  background: var(--tertiary-fixed);
-  color: #291800;
-  border-color: var(--tertiary-fixed);
 }
 .process-step h5 {
   font-size: 18px;
@@ -528,7 +542,7 @@ p {
 }
 
 .occasions-section {
-  padding: 96px 0;
+  padding: var(--section-gap) 0;
 }
 .occasions-section h3 {
   color: var(--secondary);
@@ -562,7 +576,7 @@ p {
     padding-right: var(--mobile-margin);
   }
   .section-padding {
-    padding: 80px 0;
+    padding: 72px 0;
   }
   .story-grid,
   .branding-grid,

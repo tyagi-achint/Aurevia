@@ -5,12 +5,12 @@
 }
 
 .footer-div .footer-div-container {
-  padding-inline: 64px;
+  padding-inline: var(--desktop-margin, 48px);
 }
 
 .footer-div-top {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 
   display: flex;
   justify-content: space-between;
@@ -118,8 +118,8 @@
 
 @media (max-width: 768px) {
   .footer-div-top {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     flex-direction: column;
   }
 
@@ -152,6 +152,6 @@
 
 @media (max-width: 576px) {
   .footer-div .footer-div-container {
-    padding-inline: 20px;
+    padding-inline: var(--mobile-margin, 16px);
   }
 }
