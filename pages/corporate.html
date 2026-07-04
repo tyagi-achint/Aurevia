@@ -198,7 +198,7 @@
       });
     }, observerOptions);
 
-    document.querySelectorAll('section > .container, .contact-card').forEach(el => {
+    document.querySelectorAll('section > .container').forEach(el => {
       el.classList.add('reveal');
       observer.observe(el);
     });

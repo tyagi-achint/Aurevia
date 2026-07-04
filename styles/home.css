@@ -113,8 +113,7 @@ p {
 .btn,
 .text-link,
 .solution-card span,
-.occasions-section h3,
-.quote-card label span {
+.occasions-section h3 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.1em;
@@ -259,8 +258,7 @@ p {
 }
 
 .story-grid,
-.branding-grid,
-.quote-grid {
+.branding-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
@@ -555,83 +553,6 @@ p {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-.quote-section {
-  position: relative;
-  overflow: hidden;
-}
-.quote-bg {
-  background-image: url("../assets/images/home_10.png");
-  z-index: 0;
-}
-.quote-grid {
-  position: relative;
-  z-index: 1;
-}
-.quote-copy {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-.support-line {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  color: var(--tertiary);
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.1em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.quote-card {
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(12px);
-  padding: 32px;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-}
-.quote-card h3 {
-  color: var(--primary);
-  margin-bottom: 32px;
-}
-.quote-card form {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-.form-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-}
-.quote-card label {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.quote-card label span {
-  color: var(--secondary);
-  font-size: 10px;
-  letter-spacing: 0.08em;
-}
-.quote-card input,
-.quote-card select,
-.quote-card textarea {
-  width: 100%;
-  border: 0;
-  border-bottom: 1px solid rgba(62, 83, 55, 0.2);
-  background: var(--surface-low);
-  padding: 12px 0;
-  color: var(--on-surface);
-  outline: none;
-  resize: vertical;
-}
-.quote-card input:focus,
-.quote-card select:focus,
-.quote-card textarea:focus {
-  border-bottom-color: var(--primary);
-}
-
 @media (max-width: 900px) {
   .container {
     padding: 0 var(--mobile-margin);
@@ -645,12 +566,10 @@ p {
   }
   .story-grid,
   .branding-grid,
-  .quote-grid,
   .top-grid,
   .bottom-grid,
   .features-grid,
-  .process-grid,
-  .form-grid {
+  .process-grid {
     grid-template-columns: 1fr;
   }
   .story-image {
@@ -692,9 +611,6 @@ p {
     grid-template-columns: 1fr;
   }
   .card-content {
-    padding: 24px;
-  }
-  .quote-card {
     padding: 24px;
   }
 }

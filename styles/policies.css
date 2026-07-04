@@ -212,7 +212,6 @@ a {
 
 .sidebar-nav a,
 .eyebrow,
-.info-card h4,
 .terms-box h5,
 .privacy-card h6 {
   font-size: 12px;
@@ -359,28 +358,10 @@ a {
   margin: 30px 0;
 }
 
-.two-columns {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .three-columns {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.info-card {
-  background: #fff;
-  border: 1px solid rgba(196, 200, 190, 0.32);
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(85, 107, 77, 0.05);
-  padding: 24px;
-}
-
-.info-card h4 {
-  color: var(--primary);
-  margin: 0 0 12px;
-}
-
-.info-card p,
 .terms-box p,
 .privacy-card p {
   margin: 0;
@@ -399,14 +380,6 @@ a {
 
 .policy-list li::marker {
   color: var(--primary-container);
-}
-
-blockquote {
-  margin: 26px 0;
-  border-left: 4px solid var(--tertiary);
-  padding: 8px 0 8px 20px;
-  color: var(--on-surface-variant);
-  font-style: italic;
 }
 
 .stacked-copy h4,
@@ -556,12 +529,10 @@ blockquote {
     line-height: 1.08;
   }
 
-  .two-columns,
   .three-columns {
     grid-template-columns: 1fr;
   }
 
-  .info-card,
   .terms-box,
   .privacy-card {
     padding: 20px;
