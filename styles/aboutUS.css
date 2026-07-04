@@ -82,16 +82,6 @@ p {
   padding-block: var(--section-gap);
 }
 
-.eyebrow {
-  display: inline-block;
-  font-family: var(--font-body);
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
 .eyebrow-light {
   color: var(--secondary-fixed);
   letter-spacing: 0.2em;
@@ -406,103 +396,9 @@ p {
   line-height: 20px;
 }
 
-.cta-section {
-  position: relative;
-  overflow: hidden;
-  background: var(--primary-container);
-  color: var(--surface);
-}
-
-.cta-accent {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 33.333%;
-  height: 100%;
-  background: rgba(78, 100, 71, 0.2);
-  transform: skewX(12deg) translateX(50%);
-}
-
-.cta-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-}
-
-.cta-content > * + * {
-  margin-top: var(--stack-lg);
-}
-
-.cta-content h2 {
-  color: var(--surface);
-}
-
-.cta-content p {
-  max-width: 672px;
-  margin-inline: auto;
-  color: rgba(252, 249, 248, 0.8);
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.cta-actions {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 16px;
-}
-
-.button {
-  padding: 16px 32px;
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  transition:
-    background-color 300ms ease,
-    color 300ms ease;
-}
-
-.button-light {
-  background: var(--surface);
-  color: var(--primary);
-}
-
-.button-light:hover {
-  background: var(--secondary-fixed);
-}
-
-.button-outline {
-  background: transparent;
-  color: var(--surface);
-  border: 1px solid rgba(252, 249, 248, 0.4);
-}
-
-.button-outline:hover {
-  background: rgba(252, 249, 248, 0.1);
-}
-
-.reveal-block {
-  opacity: 0;
-  transform: translateY(40px);
-  transition:
-    opacity 1000ms ease,
-    transform 1000ms ease;
-}
-
-.reveal-block.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 @media (min-width: 640px) {
   .industry-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .cta-actions {
-    flex-direction: row;
   }
 }
 

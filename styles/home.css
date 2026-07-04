@@ -1,11 +1,9 @@
 :root {
   --surface-low: #f6f3f2;
   --surface: #fcf9f8;
-  --surface-white: #ffffff;
   --surface-variant: #e4e2e1;
   --primary: #3e5337;
   --primary-container: #556b4d;
-  --primary-fixed: #d1eac4;
   --secondary: #605e58;
   --secondary-fixed: #e6e2da;
   --tertiary: #694601;
