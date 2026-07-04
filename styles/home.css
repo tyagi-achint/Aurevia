@@ -189,7 +189,7 @@ p {
 }
 .hero-bg {
   transform: scale(1.05);
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA3aotUdvL2e5i6SXCB5khcDEC9omTrWu01OsGY9vZ2ORXYtpAYp8RfaF3m2SKcelQFyYBT5EvY0JetKPJ6K1tFcpR7aCn9_lERIMRXvit906JSAS4-rzxI7YZY24Uw-EH2PUpNVRSbpwUH-V1X3xa18k6qGlFqI5ANpt6eLetAA5kF0aHcOp1gCn-AmAWUrnrcLLfIThwBhNqBONVdaJGOl8yXnl_OzVCg8b1sXVDwx0Oe9vFCr7jKXGaZMsX0UvZV76JH4uiGfzaK");
+  background-image: url("../assets/images/home_hero.png");
 }
 .hero-overlay {
   position: absolute;
@@ -274,7 +274,7 @@ p {
   border-radius: 4px;
   overflow: hidden;
   box-shadow: var(--shadow);
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbrh8T8_3bsZuD2ygh1LoI4bBvaKQ2_UiAIgYSz_axHpd_e7b7EArzSs2YPydeNC8G9tdJSdQMvh2HDNbE4ggY_jI-wJuRGw5fxeL-XdblUzYla_ehjBPyKYzgSVMeCiCRbKJC67ZWcZU0oOuJprqmVbzXK5fJoXiWwUVC3QDTpaucVs1019vmPBBLOPl58wf6iqvT0rdyj5mJ8VI5IZDH4KOkSj8cJtrqCVBNiYYdNCSvE4ImCdtfPAGiYXhEyK5_4w_LhRCCycug");
+  background-image: url("../assets/images/home_2.png");
   background-size: cover;
   background-position: center;
 }
@@ -397,19 +397,19 @@ p {
   max-width: 360px;
 }
 .onboarding-card .card-bg {
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDhp7GGhKT_LQTe1ImqG32PtQyptHSBhxzZlSwD7crWxFvs_wVHoFlxn0y6pfUY7DYtBbUuAA3eglGCNzojRCvB2wLvsuUmGnSy-_RR4U6cnFpO5Ii7IvWERqekrLwoqxkN_1e_QTEVjxCs2GKn48fE_dgC35W0YLEHFSw3SDSO5gvP5TR5OYBiZ9AzuYbhW0NF2VZDZ4sG1RbOA-aSgcqe0yZLDmsGOgo3b8maWIY8yiZPZXCeq76mjnwS8NxJVYpdiD0ln3My7eJm");
+  background-image: url("../assets/images/home_3.png");
 }
 .client-card .card-bg {
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBahBJVZT-vSrOQGslad6jjs8FNr30P1-9Ow1mAjHnfqis5T5-Fx38h4c_CgDki8AAmBHgoPT-TmGR9CGrr5gzn7bkPUg1qPIDMKCQMrAxfXPWq_E8V9CUBtVrJLxJqevMFM8D10SZKp_E5HJ8YRbqONx8Mlvl-yEtl4YuXnmJVNas0vLMxzeeACEf5FC7BI1xgM_cxRhDJ25ytBbZxWG4AN7hN63usAF1L-HxuRodTOvVaonDatRQFl0mH74qyYAj9tUQL9RnB0aGV");
+  background-image: url("../assets/images/home_4.png");
 }
 .executive-card .card-bg {
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB_qZ1JPKSt4Wtdb2f451dC2000UJA6Gpz-9_oAey_iyPzpkPWSMaCrRqGcfOaC6pTKavCJKSkgDt_S1rkx9Sf1PsvnykMyqYxEhqwDThQnY-lEL0eP012bJLmC-AWRcHKs1-jQDDpU3d8qlcpx1h5_8LY6NJ_GTRiFOmE2R9tUc6-Gi7AYFb3Opm1q3buIGUF-WjAsVLfe70Gs6IwMp0bAoYiXqkK0E9Qoh3FXapMcK-yeGVDAm-ihiDCF7hInEnvz9ldelV508PqP");
+  background-image: url("../assets/images/home_5.png");
 }
 .festive-card .card-bg {
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB_oSYelsRhPa8rJ8VQSnPuSW5YaljUqXqfIwtPcc1rKDEfzaYGL6KKeuFeRvUcF-l9gkmExvJM7LJUBIwME8cK0emZOlTA75jb4nsMVko2fnHkVMkuGGR1zI971CUxxRLGx9GhlJIC7VL6un4VCNflFjOfi_V9TqGuEMQrhCgxxX47D3Nmkg1Ro6cpBONs1vyXABXKo1KFEwCnJMugTT0OsIcxsU6xH2mgtsHK2v47KVn-cNU5c1BAJmN-VIJf7VCHc0uilL7afRqu");
+  background-image: url("../assets/images/home_6.png");
 }
 .merch-card .card-bg {
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbHnjhLXYV2TBekZiKnzvsDbdIwIwVPCTwMY_sG1Jd61K6mf_8CCxvVTg5UhC8-MWiUuvcqTj85Cc_qqxs1KKyl-bUAoHm87owx-3aNr_Afl1C8lAlGn_hHKOzMCkKBnMlw7FwdE79giecIDqyujazZCxnlNIwMaXWRAkcrHQJ7relcqw21fv_nEFt6sVWrl5Bbc8Woyy6Z06HYiJ_bHFlzOeW59lu1TUNzUW1Ha6bSBe_EIgfjU0sLZTQ8qH22TgaH948lLGJi15E");
+  background-image: url("../assets/images/home_7.png");
 }
 
 .features-grid {
@@ -520,7 +520,7 @@ p {
   right: 0;
   width: 80%;
   height: 100%;
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBQ5m6WpE4dFaI-NkArgXwpJqu_tV_-6XUz90rNyd-sVAMw3OyJtssQf48xgrz6ZuKfM1bf0BephZ-p5Yqst3W68g6NAIFaMiPz1AmrHBSLlEFLOrbGoC4Nm_KyRXwTPiY2SKiJQFYAU0iQD9ZzmQjeWgDVQkil8ktAhpBGrrpT4OWGPEjfpibNdc1_1ovb417dMB4fkomHnKiNnmdNlgLy5SxLn-9j7jQSJY8O42B54rV1n-ReQak3-0XkVn-eRBm78zqU1Q35ebx5");
+  background-image: url("../assets/images/home_8.png");
 }
 .brand-image-small {
   bottom: 16px;
@@ -528,7 +528,7 @@ p {
   width: 50%;
   height: 60%;
   border: 8px solid var(--surface);
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDJRvtk4O5wWR_yBZOoUqm8j4fMnrPmz7y1zUi0f_5vJne7tbn3KcfWg50bsk_t5KgeY9lt9lmnT4zdCDnGI5JglnSDEydSAdDYpgC99H9AUg6U1RMWJIzQ_nxhfTvWDC6NjltzSmfUm_D98HztBm9FZEpiA-ucuv6d7gS5rdQ_tBDWoskY9zjzrVtmiDn3XJJtvVPVxTTJurD0Ca59lSuUc9couBFyjEw8mmDqCH6G14iqBRxsFPRHpCFt3X7MW-JLiOhCcfphRrVQ");
+  background-image: url("../assets/images/home_9.png");
 }
 
 .occasions-section {
@@ -562,7 +562,7 @@ p {
   overflow: hidden;
 }
 .quote-bg {
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDgb1RzFrdmDFu0Fxgi8uOa6Ml75z0cpASs-nyRrUu4eC7mJ4PUhPTukvdBj1JdSjOLa6UBdD7TIZzRljZ7-WtwmIOdB6BfLL0gS7KlWKMWMcoG5d95Ouu6POxsrDOk8zBlF5F5TcXXLGUeFNobNYAb3-L2kOJk9Bex1OXoH7l7kkD_If44vUxtwjXzgLrG37xr2pWIkQXjy-yRweVxIBvldqMWfk3419723IKKfZ81Qny9tYcUT-NGNQJnj1l0ppyv8SV6Mi51r4zX");
+  background-image: url("../assets/images/home_10.png");
   z-index: 0;
 }
 .quote-grid {

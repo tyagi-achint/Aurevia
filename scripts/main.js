@@ -49,6 +49,12 @@ async function init() {
         }
     });
 
+    const footerYear = document.getElementById("footer-current-year");
+
+    if (footerYear) {
+        footerYear.textContent = new Date().getFullYear();
+    }
+
     const normalizePath = (path) => {
         if (!path) {
             return "/";
